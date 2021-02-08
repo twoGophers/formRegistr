@@ -1,27 +1,12 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @media screen and (max-width: 500px) {
   body {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   body .main-form {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     width: 100%;
     margin: 1%;
     padding: 0;
@@ -32,5 +17,9 @@
   }
   body .main-form form .form-row {
     width: 100%;
+  }
+  body .main-form form .form-row input,
+body .main-form form .form-row select {
+    border: 1px solid #8b8b8b;
   }
 }

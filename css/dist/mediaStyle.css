@@ -8,27 +8,27 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 1%;
     padding: 0;
     margin-top: 3%;
   }
   body .main-form form {
     width: 80%;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   body .main-form form .form-row {
+    width: 90%;
+  }
+  body .main-form form .form-row .form-field input,
+body .main-form form .form-row .form-field select {
+    border: 2px solid #8b8b8b;
+  }
+  body .main-form form .registr {
     width: 100%;
-    margin: 0;
-    padding: 0;
   }
-  body .main-form form .form-row input,
-body .main-form form .form-row select {
-    border: 1px solid #8b8b8b;
-  }
-  body .main-form form .form-row button {
-    margin: 0;
-    padding: 0;
-    width: 80%;
+  body .main-form form .registr button {
+    width: 70%;
   }
 }

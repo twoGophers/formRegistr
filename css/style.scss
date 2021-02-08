@@ -1,0 +1,93 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, input, select, label {
+    color: rgb(66, 66, 66);
+}
+
+p {
+    font-size: 0.9em;
+}
+
+
+.main-form {
+    margin-left: 2%; 
+    form {
+        margin: 0;
+        border-radius: 5%;
+        font-size: 0.9em;
+        background-color: white;
+        min-width: 300px;
+        max-width: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2%;
+        .form-row {
+            display: flex;
+            width: 100%;
+            margin-top: 1%;
+            .form-field {
+                .errorInput {
+                    color: red;
+                    
+                }
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                &__text{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;   
+                }
+                &__check {
+                    margin-top: 4%;
+                    margin-bottom: 4%;
+                    .errorCheckbox {
+                        color:red;
+                    }
+                }
+                input, select {
+                    padding: 4%;
+                    box-shadow: 0px 0px 2px 0 rgb(139, 139, 139);
+                    outline: none;
+                    border: none;
+                    border-radius: 5px;
+                }
+                select:focus,
+                input:focus {
+                    box-shadow: 0px 0px 3px 0 rgb(3, 226, 255);
+                    background-color: rgb(206, 253, 247);
+                }
+                select:hover,
+                input:hover {
+                    background-color: rgb(206, 253, 247);
+                }
+                label {
+                    margin-bottom: 2%;
+                }
+                
+            }
+            
+        }
+        .registr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2%;
+            button {
+                padding: 3%;
+                color: white;
+                background-color: #0880AE;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+    }
+}

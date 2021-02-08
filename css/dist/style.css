@@ -1,0 +1,89 @@
+body {
+  background-color: #E5E5E5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, input, select, label {
+  color: #424242;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+.main-form {
+  margin-left: 2%;
+}
+.main-form form {
+  margin: 0;
+  border-radius: 5%;
+  font-size: 0.9em;
+  background-color: white;
+  min-width: 300px;
+  max-width: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2%;
+}
+.main-form form .form-row {
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+}
+.main-form form .form-row .form-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main-form form .form-row .form-field .errorInput {
+  color: red;
+}
+.main-form form .form-row .form-field__text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main-form form .form-row .form-field__check {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.main-form form .form-row .form-field__check .errorCheckbox {
+  color: red;
+}
+.main-form form .form-row .form-field input, .main-form form .form-row .form-field select {
+  padding: 4%;
+  box-shadow: 0px 0px 2px 0 #8b8b8b;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.main-form form .form-row .form-field select:focus,
+.main-form form .form-row .form-field input:focus {
+  box-shadow: 0px 0px 3px 0 #03e2ff;
+  background-color: #cefdf7;
+}
+.main-form form .form-row .form-field select:hover,
+.main-form form .form-row .form-field input:hover {
+  background-color: #cefdf7;
+}
+.main-form form .form-row .form-field label {
+  margin-bottom: 2%;
+}
+.main-form form .registr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.main-form form .registr button {
+  padding: 3%;
+  color: white;
+  background-color: #0880AE;
+  border: none;
+  border-radius: 5px;
+}
